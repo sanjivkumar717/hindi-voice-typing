@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Hindi-Voice-Typing-APK
-        path: app/build/outputs/apk/**/*.apk
+        path: **/*.apk
